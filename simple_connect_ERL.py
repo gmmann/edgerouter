@@ -6,7 +6,7 @@ net_connect = Netmiko(
     "192.168.69.1",
     username="gmann",
     password=getpass(),
-    device_type="ubiquiti_edge",
+    device_type="vyatta_vyos",
 )
 
 print(net_connect.find_prompt())
